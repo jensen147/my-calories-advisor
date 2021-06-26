@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:src="@drawable/logo"
+            android:layout_width="680dp"
+            android:layout_height="209dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"/>
+        <!-- //Logo -->
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                android:id="@+id/textViewTargetWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/target_weight" />
+
+                <TextView
+                    android:id="@+id/textViewBlank1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="1"
+                    android:text="@string/blank" />
+
+                <TextView
+                    android:id="@+id/textViewTargetWeightRe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/target_weight" />
+                <TextView
+                    android:id="@+id/textViewBlank2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="1"
+                    android:text="@string/blank" />
+
+                <TextView
+                    android:id="@+id/textViewTargetMeasurementType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kg" />
+
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textViewTargetWeightWeekGoal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/weekly_goal"/>
+
+                <TextView
+                    android:id="@+id/textViewBlank3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="1"
+                    android:text="@string/blank" />
+
+                <TextView
+                    android:id="@+id/textViewTargetWeightWeekRe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/weekly_goal" />
+                <TextView
+                    android:id="@+id/textViewBlank4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="1"
+                    android:text="@string/blank" />
+
+                <TextView
+                    android:id="@+id/textViewTargetMeasurementType1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kg_each_week" />
+
+            </TableRow>
+        </TableLayout>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textViewNeedCal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Calories in one day"/>
+
+                <TextView
+                    android:id="@+id/textViewBlank5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="1"
+                    android:text="@string/blank" />
+
+                <TextView
+                    android:id="@+id/textViewNeedCalRe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="how much" />
+                <TextView
+                    android:id="@+id/textViewBlank6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="1"
+                    android:text="@string/blank" />
+
+                <TextView
+                    android:id="@+id/textViewTargetCal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="calories" />
+
+            </TableRow>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textViewTargetProteinGoal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="You need Protein"/>
+
+                    <TextView
+                        android:id="@+id/textViewBlank7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="1"
+                        android:text="@string/blank" />
+
+                    <TextView
+                        android:id="@+id/textViewHowProtein"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="how much" />
+                    <TextView
+                        android:id="@+id/textViewBlank8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="1"
+                        android:text="@string/blank" />
+
+                    <TextView
+                        android:id="@+id/textViewTarget1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="in one day" />
+
+                </TableRow>
+            </TableLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textViewTargetCarbohydrateGoal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="You need Carbohydrate"/>
+
+                    <TextView
+                        android:id="@+id/textViewBlank9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="1"
+                        android:text="@string/blank" />
+
+                    <TextView
+                        android:id="@+id/textViewHowCarbohydrate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="how much" />
+                    <TextView
+                        android:id="@+id/textViewBlank10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="1"
+                        android:text="@string/blank" />
+
+                    <TextView
+                        android:id="@+id/textViewTarget2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="in one day" />
+
+                </TableRow>
+            </TableLayout>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textViewTargetFatGoal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="You need Fat"/>
+
+                    <TextView
+                        android:id="@+id/textViewBlank11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="1"
+                        android:text="@string/blank" />
+
+                    <TextView
+                        android:id="@+id/textViewHowFat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="how much" />
+                    <TextView
+                        android:id="@+id/textViewBlank12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="1"
+                        android:text="@string/blank" />
+
+                    <TextView
+                        android:id="@+id/textViewTarget3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="in one day" />
+
+                </TableRow>
+            </TableLayout>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp" >
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/blank"
+                    android:layout_marginTop="12dp" />
+
+                <Button
+                    android:id="@+id/buttonSubmit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SUBMIT" />
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/blank"
+                    android:layout_marginTop="12dp" />
+
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>
